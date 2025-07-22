@@ -1,3 +1,5 @@
+/** @format */
+
 const spanList = [...document.getElementsByTagName("span")];
 
 const getRandomNumber = (max) => {
