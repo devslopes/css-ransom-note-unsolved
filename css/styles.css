@@ -96,9 +96,8 @@ body {
      font-size: 45px;
   font-weight: lighter;
   color: #1d6d1d;
-  text-decoration: bold;
-  text-transform: lighter;
-  transform: rotateX('90');
+  text-decoration: none;
+  text-transform: none;
 }
 
 .didDTwoLetter {
@@ -114,7 +113,6 @@ body {
   font-weight: bold;
   color: rgb(207, 230, 81);
   text-decoration-line: line-through;
-  transform: rotate(0.5turn) forwards;
 }
 
 .theHLetter {
@@ -124,7 +122,7 @@ body {
 
 .theELetter {
      font-size: 50px;
-  font-weight: large;
+  font-weight: 100;
   color: coral;
   display: inline-block;
   transform: scale(-1);
@@ -137,12 +135,11 @@ body {
      font-size: 35px;
   font-weight: bolder;
   color: blue;
-  text-transform: rotate(180 deg) forwards;
 }
 
 .frontendRLetter {
      font-size: 60px;
-  font-weight: light;
+  font-weight: 900;
   color: tan;
 }
 
@@ -172,8 +169,8 @@ body {
 
 .frontendNTwoLetter {
      font-size: 20px;
-      text-transform: rotate(180 deg) forwards;
-      animation-fill-mode: forwards;
+  font-weight: normal;
+  font-style: normal;
 }
  
 
@@ -187,10 +184,9 @@ body {
 
 .developerDLetter {
      font-size: 40px;
-  font-weight: none;
+  font-weight: 100;
   color: rgb(57, 13, 128);
   font-family: "Noto Sans JP", sans-serif;
-  font-optical-sizing: auto;
   font-weight: normal;
   font-style: normal;
 }
@@ -200,7 +196,6 @@ body {
   font-weight: 400;
   color: coral;
   font-family: "Kablammo", system-ui;
-  font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
   font-variation-settings:
@@ -208,7 +203,7 @@ body {
 }
 .developerVLetter {
      font-size: 70px;
-  font-weight: none;
+  font-weight: 900;
   color: hsl(62, 100%, 27%);
   text-decoration: underline;
   text-transform: capitalize;
@@ -237,7 +232,7 @@ body {
   font-weight: normal;
   color: rgb(216, 213, 62);
   text-decoration:line-through;
-  text-transform: transparent;
+  text-transform: capitalize;
   font-family: sans-serif;
 }
 .developerPLetter {
@@ -250,14 +245,14 @@ body {
 }
 .developerEThreeLetter {
      font-size: 19px;
-  font-weight: none;
+  font-weight: 900;
   color: hsl(96.32, 35%, 22%);
   text-decoration: underline;
   text-transform: capitalize;
   font-family: Arial, Helvetica, sans-serif;
 }
 .developerRLetter {
-     font-size: 50;
+     font-size: 50px;
   font-weight: bold;
   color: #8f9530;
   text-decoration: none;
@@ -277,7 +272,7 @@ body {
 }
 .takeALetter {
      font-size: 38px;
-  font-weight: light;
+  font-weight: lighter;
   color: #f2a65a;
   text-decoration: none;
   text-transform: none;
@@ -304,7 +299,7 @@ body {
 
 .upULetter {
      font-size: 78px;
-  font-weight: none;
+  font-weight: 900;
   color: #8bf1f1;
   text-decoration: underline dotted;
   text-transform: lowercase;
@@ -333,7 +328,7 @@ body {
 }
 .gardeningALetter {
      font-size: 26px;
-  font-weight: none;
+  font-weight: 100;
   color: #b7ef9e;
   text-decoration: none;
   text-transform: none;
@@ -365,7 +360,7 @@ body {
 }
 .gardeningNLetter {
      font-size: 46px;
-  font-weight: none;
+  font-weight: 900;
   color: rgb(122, 129, 202);
   text-decoration: none;
   text-transform: none;
@@ -416,10 +411,10 @@ body {
 }
 .becauseCLetter {
       font-size: 61px;
-  font-weight: none;
+  font-weight: 900;
   color: rgb(252, 139, 88);
   text-decoration: underline overline;
-  text-transform: inital;
+  text-transform: none;
   font-family: fangson;
 }
 .becauseALetter {
@@ -440,7 +435,7 @@ body {
 }
 .becauseSLetter {
       font-size: 33px;
-  font-weight: dark;
+  font-weight: 100;
   color: rgb(15, 60, 137);
   text-decoration: none;
   text-transform: unset;
@@ -483,7 +478,7 @@ body {
 }
 .theyYLetter {
       font-size: 27px;
-  font-weight: dark;
+  font-weight: 900;
   color: rgb(110, 160, 183);
   text-decoration:underline;
   text-transform: inherit;
@@ -494,7 +489,7 @@ body {
 
 .wantedWLetter {
       font-size: 61px;
-  font-weight: none;
+  font-weight: 100;
   color: hsl(281.25, 45%, 58%);
   text-decoration: none;
   text-transform: initial;
@@ -509,7 +504,7 @@ body {
   font-family: monospace;
 }
 .wantedNLetter {
-      font-size:66; 
+      font-size:66px; 
   font-weight: bold;
   color: rgb(57, 77, 59);
   text-decoration: none;
@@ -534,7 +529,7 @@ body {
 }
 .wantedDLetter {
       font-size: 27px;
-  font-weight: dark;
+  font-weight: 900;
   color: rgb(233, 195, 178);
   text-decoration: none;
   text-transform: capitalize;
@@ -553,7 +548,7 @@ body {
 }
 .toOLetter {
       font-size: 26px;
-  font-weight: none;
+  font-weight: 100;
   color: rgb(150, 227, 225);
   text-decoration: none;
   text-transform: inherit;
@@ -590,7 +585,7 @@ body {
 }
 .improveRLetter {
       font-size: 49px;
-  font-weight: dark;
+  font-weight: 900;
   color: hsl(124.21, 98%, 23%);
   text-decoration: wavy underline;
   text-transform: none;
@@ -606,7 +601,7 @@ body {
 }
 .improveVLetter {
       font-size: 32px;
-  font-weight: none;
+  font-weight: 100;
   color: rgb(101, 221, 59);
   text-decoration: none;
   text-transform: lowercase;
@@ -657,7 +652,7 @@ body {
 }
 .theirRLetter {
       font-size: 46px;
-  font-weight: none;
+  font-weight: 900;
   color: rgb(29, 99, 182);
   text-decoration: none;
   text-transform: lowercase;
@@ -668,7 +663,7 @@ body {
 
 .rootRLetter {
       font-size: 76px;
-  font-weight: dark;
+  font-weight: 100;
   color: hsl(339.3, 60%, 54%);
   text-decoration: none;
   text-transform: full-width;
@@ -703,7 +698,7 @@ body {
 
 .skillsSLetter {
       font-size: 92px;
-  font-weight: none;
+  font-weight: 900;
   color: rgb(126, 199, 224);
   text-decoration: none;
   text-transform: unset;
@@ -711,7 +706,7 @@ body {
 }
 .skillsKLetter {
       font-size: 42px;
-  font-weight: normal;
+  font-weight: 100;
   color: hsl(33.02, 61%, 69%);
   text-decoration: none;
   text-transform: none;
@@ -719,7 +714,7 @@ body {
 }
 .skillsILetter {
       font-size: 83px;
-  font-weight: none;
+  font-weight: 900;
   color: #751a69;
   text-decoration:line-through;
   text-transform: uppercase;
@@ -727,7 +722,7 @@ body {
 }
 .skillsLLetter {
       font-size: 21px;
-  font-weight: dark;
+  font-weight: 100;
   color: rgb(64, 240, 143);
   text-decoration: overline;
   text-transform: lowercase;
@@ -760,19 +755,11 @@ body {
   text-transform: none;
   font-family: fantasy
 }
-.exclamation-mark {
-      font-size: 29;
+.exclamation-mark, .question-mark {
+      font-size: 29px;
   font-weight: normal;
   color: hsl(341.52, 79%, 49%);
   text-decoration: dashed underline;
   text-transform: capitalize;
   font-family: times;
-}
-.question-mark {
-      font-size: 77px;
-  font-weight: none;
-  color: #bfd81a;
-  text-decoration: line-through;
-  text-transform: none;
-  font-family: fangsong;
 }

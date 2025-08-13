@@ -10,5 +10,17 @@
     "Piazzolla",
     "Raleway"
   ],
-  "liveServer.settings.port": 5551
+  "liveServer.settings.port": 5551,
+  "github-actions.use-enterprise": true,
+  "github-actions.workflows.pinned.refresh.enabled": true,
+  "githubIssues.alwaysPromptForNewIssueRepo": true,
+  "githubPullRequests.codingAgent.uiIntegration": true,
+  "githubPullRequests.neverIgnoreDefaultBranch": true,
+  "githubPullRequests.quickDiff": true,
+  "githubPullRequests.showPullRequestNumberInTree": true,
+  "githubPullRequests.experimental.useQuickChat": true,
+  "remoteHub.richNavigation.enabled": true,
+  "files.exclude": {
+    "git": true
+  }
 }
